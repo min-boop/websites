@@ -23,7 +23,7 @@ def chat_gpt(message):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
+        "Authorization": "Bearer your own key"
     }
     data = {
         "model": "gpt-3.5-turbo",
